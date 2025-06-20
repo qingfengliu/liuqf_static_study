@@ -8,8 +8,8 @@ from docx import Document
 import sys
 sys.path.append(r'D:\program\Release-24.08.0-0\poppler-24.08.0\Library\bin')
 father_path = 'D:\工作'
-input_path = os.path.join(father_path, '关于印发《对外承包工程业务统计调查制度》和《对外劳务合作业务统计调查制度》的通知2025.pdf')
-output_path = os.path.join(father_path, '测试输出.docx')
+input_path = os.path.join(father_path, '浙江省人民政府办公厅关于印发浙江省推动碳排双控工作若干举措的通知.pdf')
+output_path = os.path.join(father_path, 'word/浙江省人民政府办公厅关于印发浙江省推动碳排双控工作若干举措的通知.docx')
 # 步骤 1: 将 PDF 转换为图片
 pages = convert_from_path(input_path, 300)  # 转换为 PIL 图像对象
 
